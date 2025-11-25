@@ -3,7 +3,12 @@
 
 When tasks need to happen in a **certain, specific order**, we can use a `SequentialAgent`. This is like an assembly line, running each sub-agent in the exact order as listed. The output of one agent\step automatically becomes the input for the next, creating a predictable and reliable workflow.
 
-## Typical Design
+Here is a system with three specialized agents:
+1. **Outline Agent** - Creates a blog outline for a given topic
+2. **Writer Agent** - Writes a blog post
+3. **Editor Agent** - Edits a blog post draft for clarity and structure
+
+## Typical Flow
 <img width="1072" height="73" alt="image" src="https://github.com/user-attachments/assets/4c72e66c-24b2-48bb-9a29-978ea6e956fe" />
 
 ## Chat example 
