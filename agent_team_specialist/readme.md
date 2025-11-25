@@ -1,4 +1,4 @@
-# Multi-agent System
+# Agent Team Specialists
 
 This is a team of simple, specialized agents that collaborate, just like a real-world team. Each agent has one clear job (e.g., one agent only does research, another only writes).
 This makes them easier to build, easier to test, and much more powerful and reliable when working together.
